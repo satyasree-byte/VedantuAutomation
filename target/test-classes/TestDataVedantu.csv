@@ -1,0 +1,7 @@
+TestCase_ID,StudentData
+Test01_ValidValues,1_A_V 2_A_V 3_A_NV 4_A_NV 5_B_V 6_B_V 7_B_NV 8_B_NV
+Test02_DuplicateRullNum,1_A_V 1_A_V 2_A_NV 2_A_NV 2_B_V 6_B_V 7_B_NV 8_B_NV
+Test03_InvalidValues,b_A_V a_A_V 2_A_NV c_A_NV
+Test04_ClassValidation,1_X_V 2_Y_V 3_Z_NV 4_A_NV
+Test05_FoodTypeValidation,1_A_AS 2_B_DF 3_A_DF 4_A_FG
+Test06_AlternateInvalidValues,1_X_AS 2_Y_DF 3_Z_DF 4_W_FG
